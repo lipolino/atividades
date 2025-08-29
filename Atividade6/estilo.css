@@ -1,0 +1,19 @@
+@charset "utf-8";
+
+body {
+    margin: 100px 300px 100px 300px;
+}
+
+h3 {
+    text-align: center;
+}
+
+div {
+    padding: 50px 30px 50px 80px;
+    background-color: lightblue;
+    border: 1px solid black;
+}
+
+p {
+    font-size: 14px;
+}

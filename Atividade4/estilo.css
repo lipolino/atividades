@@ -1,0 +1,50 @@
+@charset "utf-8";
+
+ul {
+    list-style: none;
+    font-weight: bold;
+    margin: 100px 650px 100px 650px;
+}
+
+li {
+    font-size: 13px;
+    font-weight: bold;
+    margin: 5px 0 5px 0;
+}
+
+li:hover {
+    font-style: italic;
+    font-size: 15px;
+}
+
+.tomato {
+    background-color: tomato;
+}
+
+.orange {
+    background-color: orange;
+}
+
+.dodgerblue {
+    background-color: dodgerblue;
+}
+
+.mediumseagreen {
+    background-color: mediumseagreen;
+}
+
+.gray {
+    background-color: gray;
+}
+
+.slateblue {
+    background-color: slateblue;
+}
+
+.violet {
+    background-color: violet;
+}
+
+.lightblue {
+    background-color: lightblue;
+}

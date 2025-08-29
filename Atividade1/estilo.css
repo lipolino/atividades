@@ -1,0 +1,37 @@
+@charset "utf-8";
+
+header {
+    margin: 200px 600px 0 600px;
+    height: 50px;
+    background-color: #008600;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+article {
+    margin: 0 875px 0 875px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+
+.paragrafo1, .paragrafo2, .paragrafo3 {
+    margin: 15px 0 3px 0;
+    text-align: center;
+}
+
+footer {
+    text-align: right;
+    font-style: italic;
+    margin: 0 600px 0 600px;
+}
+
+footer p{
+    margin: 15px 0 0 0;
+    font-size: 17px;
+}
+
+.caixaverde {
+    height: 50px;
+    background-color: #008600;
+}

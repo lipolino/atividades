@@ -1,0 +1,27 @@
+@charset "utf-8";
+
+body {
+    margin: 100px 860px 100px 860px;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+ul li {
+    padding: 10px;
+    border-left: 15px solid #4CAF50;
+    border-bottom: 1px solid black;
+    text-align: center;
+    color: gray;
+    font-weight: bold;
+}
+
+ul li:hover {
+    background-color: #4CAF50;
+    color: white;
+    font-size: 17px;
+    font-weight: bold;
+}
