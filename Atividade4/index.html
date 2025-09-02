@@ -5,24 +5,30 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Atividade 4</title>
 
-    <link rel="stylesheet" href="estilo.css">
+    <link rel="stylesheet" href="estilo.css"> <!-- Linkando arquivo css no html -->
+
+    <script src="arquivo.js" defer></script> <!-- Linkando arquivo javascript no html -->
 </head>
 <body>
 
-    <ul class="html">
+    <ul class="html" id="listaCores">
         HTML suporta 140 nomes de cores padrões
         <a href="https://www.w3schools.com/colors/">(https://www.w3schools.com/colors/)</a>
 
-        <li class="tomato">Tomato</li>
-        <li class="orange">Orange</li>
-        <li class="dodgerblue">DodgerBlue</li>
-        <li class="mediumseagreen">MediumSeaGreen</li>
-        <li class="gray">Gray</li>
-        <li class="slateblue">SlateBlue</li>
-        <li class="violet">Violet</li>
-        <li class="lightblue">LightBlue</li>
-
+        <li class="tomato" data-cordata="Tomato">Tomato</li>
+        <li class="orange" data-cordata="Orange">Orange</li>
+        <li class="dodgerblue" data-cordata="DodgerBlue">DodgerBlue</li>
+        <li class="mediumseagreen" data-cordata="MediumSeaGreen">MediumSeaGreen</li>
+        <li class="gray" data-cordata="Gray">Gray</li>
+        <li class="slateblue" data-cordata="SlateBlue">SlateBlue</li>
+        <li class="violet" data-cordata="Violet">Violet</li>
+        <li class="lightblue" data-cordata="LightBlue">LightBlue</li>
     </ul>
+
+    <div id="caixa"></div>
+
+    <input type="text" id="corInput" placeholder="Digite uma cor">
+    <button onclick="mudarCor()">Enviar</button>
     
 </body>
 </html>
